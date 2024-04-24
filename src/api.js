@@ -7,7 +7,11 @@ const searchImage =async(term)=>{
       query:'cars'
     }
   })
-  console.log(response)
+
+  console.log(term)
+  console.log(response.data.results)
+
+  return response.data.results
 }
 
 export default searchImage

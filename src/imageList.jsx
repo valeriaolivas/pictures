@@ -1,5 +1,4 @@
 import imageShow from './imageShow'
-import './ImageList.css'
 
 function ImageList ({ images}){
     const renderImage = images.map ((image) =>{
